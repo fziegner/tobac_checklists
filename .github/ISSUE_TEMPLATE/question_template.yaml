@@ -1,0 +1,21 @@
+name: Ask a question
+description: Ask a general question about tobac
+labels: [question]
+
+body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Tobac issue checks
+      options:
+        - label: >
+            I have searched the issue tracker for similar questions.
+          required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question about tobac
+      placeholder: >
+        The more details, the better
+      description: >
+        What would you like to know?
