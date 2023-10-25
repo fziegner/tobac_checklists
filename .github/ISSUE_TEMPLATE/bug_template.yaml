@@ -10,7 +10,6 @@ body:
     validations:
       required: true
     attributes:
-      label: "Check before submitting"
       description: "Before submitting the issue, please check the following:"
       options:
         - label: "I have searched the issue tracker for the same problem"
