@@ -4,14 +4,13 @@ labels: ["bug"]
 
 body:
   - type: checkboxes
-    validations:
-      required: true
     attributes:
       label: "Before submitting the issue, please check the following:"
       options:
         - label: "I have searched the issue tracker for the same problem"
         - label: "I have updated all software to the latest versions"
-       
+    validations:
+      required: true    
 
   - type: textarea
     id: bug-description
