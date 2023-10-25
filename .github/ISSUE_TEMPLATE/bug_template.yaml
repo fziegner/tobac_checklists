@@ -3,14 +3,11 @@ description: Report a bug in the tobac library
 labels: ["bug"]
 
 body:
-  - type: markdown
-    attributes:
-      value: "Prerequisites"
   - type: checkboxes
     validations:
       required: true
     attributes:
-      description: "Before submitting the issue, please check the following:"
+      label: "Before submitting the issue, please check the following:"
       options:
         - label: "I have searched the issue tracker for the same problem"
         - label: "I have updated all software to the latest versions"
