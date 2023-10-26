@@ -2,7 +2,7 @@
 name: Release
 about: Prepare a new release for tobac
 title: Release v.X.Y.Z
-labels: ''
+labels: release
 assignees: ''
 
 ---

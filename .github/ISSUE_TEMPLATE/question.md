@@ -2,7 +2,7 @@
 name: Question
 about: 'Ask a general question about tobac '
 title: ''
-labels: ''
+labels: question
 assignees: ''
 
 ---

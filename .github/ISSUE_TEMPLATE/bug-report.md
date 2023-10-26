@@ -2,7 +2,7 @@
 name: Bug Report
 about: Report a bug in the tobac library
 title: ''
-labels: ''
+labels: bug
 assignees: ''
 
 ---
